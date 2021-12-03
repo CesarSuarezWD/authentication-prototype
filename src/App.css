@@ -14,14 +14,127 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  /* background-color: #282c34; */
+  background-color: white;
+  /* min-height: 25vh; */
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  font-size: calc(10px + 2vmin);
+  color: #555bff;
+  border-bottom: solid 2px #555bff;
+  /* background-color: lightgray; */
+}
+
+.GETHIRED-logo{
+  width: 185px;
+  height: 49px;
+  margin-left: 50px;
+}
+
+.App-loginButton{
+
+  margin-right: 100px;
+  /* padding: 20px; */
+  /* background-color: #369fff; */
+  background: linear-gradient(to right,  #ae4eff, #5f64ff);
+  font-size: 20px;
+  border-radius: 6px;
+  width: 150px;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  /* box-shadow: 5px 5px 19px -1px rgba(0,0,0,0.72); */
+}
+
+.App-logoutButton{
+
+  margin-right: 100px;
+  /* padding: 20px; */
+  /* background-color: #369fff; */
+  background: linear-gradient(to right,  #ae4eff, #5f64ff);
+  font-size: 20px;
+  border-radius: 6px;
+  width: 150px;
+  height: 60px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  /* box-shadow: 5px 5px 19px -1px rgba(0,0,0,0.72); */
+}
+
+.profile{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-profile{
+  height: 80px;
+  margin: 10px;
+}
+
+.profile-data{
+  display: flex;
+  flex-direction: column;
+}
+
+.h2-profile__nombre{
+  font-size: 30px;
+  margin: 10px;
+}
+
+.p-profile__email{
+  font-size: 20px;
+  margin: 0;
+}
+
+.Body{
+  /* background-color: #0061ff; */
+    height: 100vh;
+    background-image: url("https://i.imgur.com/RIiXbTp.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contenedor-hb{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.h1-body{
   color: white;
+  font-size: 50px;
+}
+
+.h3-body{
+  color: white;
+}
+
+.contenedor-button{
+  
+  padding: 10px;
+  background-color: #CCCCCC;
+  font-size: 20px;
+  border-radius: 30px;
+  width: 150px;
+  color: #0061ff;
+  font-weight: bold;
+  box-shadow: 5px 5px 19px -1px rgba(0,0,0,0.72);
+}
+
+.img-body{
+  margin: 2%;
+}
+.contenedor-body{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .App-link {
