@@ -10,7 +10,7 @@ ReactDOM.render(
 		<Auth0Provider
 			domain="tutosuarez.us.auth0.com"
 			clientId="AMyzA9GX3TpICFB7n6yh4cKhBXAu8DiE"
-			redirectUri={`${window.location.protocol}//${window.location.host}${window.location.pathname}`}
+			redirectUri={`${window.location.protocol}//${window.location.host}${window.location.pathname}`} // El protocol es el protocolo https:, luego viene doble slash (//), el host es cesarsuarezwd.github.io y el path authentication-prototype
 		>
 			<App />
 		</Auth0Provider>

@@ -9,7 +9,7 @@ const LogoutButton = () => {
 			className="App-logoutButton"
 			onClick={() => {
 				logout({
-					returnTo: `${window.location.protocol}//${window.location.host}${window.location.pathname}`,
+					returnTo: `${window.location.protocol}//${window.location.host}${window.location.pathname}`, // El protocol es el protocolo https:, luego viene doble slash (//), el host es cesarsuarezwd.github.io y el path authentication-prototype
 				});
 			}}
 		>
