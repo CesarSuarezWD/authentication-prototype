@@ -6,18 +6,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-
-    <Auth0Provider domain = "tutosuarez.us.auth0.com" 
-    clientId = "AMyzA9GX3TpICFB7n6yh4cKhBXAu8DiE" 
-    redirectUri = { window.location.origin }>
-
-      <App />
-
-    </Auth0Provider>
-
-  </React.StrictMode>,
-  document.getElementById('root')
+	<React.StrictMode>
+		<Auth0Provider
+			domain="tutosuarez.us.auth0.com"
+			clientId="AMyzA9GX3TpICFB7n6yh4cKhBXAu8DiE"
+			redirectUri={`${window.location.protocol}//${window.location.host}${window.location.pathname}`}
+		>
+			<App />
+		</Auth0Provider>
+	</React.StrictMode>,
+	document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function
