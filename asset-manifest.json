@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/authentication-prototype/static/css/main.2684d473.chunk.css",
-    "main.js": "/authentication-prototype/static/js/main.d4dc447f.chunk.js",
-    "main.js.map": "/authentication-prototype/static/js/main.d4dc447f.chunk.js.map",
+    "main.js": "/authentication-prototype/static/js/main.b4590e71.chunk.js",
+    "main.js.map": "/authentication-prototype/static/js/main.b4590e71.chunk.js.map",
     "runtime-main.js": "/authentication-prototype/static/js/runtime-main.7ddbe9db.js",
     "runtime-main.js.map": "/authentication-prototype/static/js/runtime-main.7ddbe9db.js.map",
     "static/js/2.9e7ed2b1.chunk.js": "/authentication-prototype/static/js/2.9e7ed2b1.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.7ddbe9db.js",
     "static/js/2.9e7ed2b1.chunk.js",
     "static/css/main.2684d473.chunk.css",
-    "static/js/main.d4dc447f.chunk.js"
+    "static/js/main.b4590e71.chunk.js"
   ]
 }
